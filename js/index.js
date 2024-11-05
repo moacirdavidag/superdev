@@ -1,8 +1,8 @@
 const btnJogar = document.getElementById('btn-jogar');
 const containers = document.querySelectorAll('.container');
 
-const somJogar = new Audio('/assets/sounds/jogar.wav');
-const somVoceEEspecial = new Audio('/assets/sounds/voce_e_especial_aline_barros.mp3');
+const somJogar = new Audio('./assets/sounds/jogar.wav');
+const somVoceEEspecial = new Audio('./assets/sounds/voce_e_especial_aline_barros.mp3');
 
 function esconderTodos() {
     containers.forEach(container => {
